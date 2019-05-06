@@ -290,4 +290,15 @@ public class ABC<E extends Comparable<E>>
 
         }
     }
+    public boolean teDosFills(){
+        return this.teDosFills(this.arrel);
+    }
+    public boolean teDosFills(NodeABC<E> r){
+        boolean res = true;
+        if(r.dre != null && r.esq != null){
+            return teDosFills(r.esq) && teDosFills(r.dre);
+        }
+        if((r.dre == null && r.esq != null) || (r.esq == null && r.dre != null)) res = false;
+        return res;
+    }
 }
