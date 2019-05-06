@@ -1,12 +1,12 @@
 package eda.librerias.estructurasDeDatos.jerarquicos;
 import eda.librerias.estructurasDeDatos.modelos.*;
 
-public class ABCDinamic<E extends Comparable<E>>
+public class ABC<E extends Comparable<E>>
         implements ArbreBinariDeCerca<E> {
     protected NodeABC<E> arrel;
     protected int talla;
 
-    public ABCDinamic() {
+    public ABC() {
         arrel = null;
         talla = 0;
     }
