@@ -374,12 +374,12 @@ public class ABB<E extends Comparable<E>> {
     }
 
     public boolean teDosFills(NodoABB<E> node){
-        if(node.der != null && node.izq != null)  // Es un node amb dos fills
+        if(node.der != null && node.izq != null) {// Es un node amb dos fills
             return teDosFills(node.izq) && teDosFills(node.der);  // Comprovem si els nodes tenen dos fills
-
-        if(node.der == null && node.izq == null)
+          }
+        if(node.der == null && node.izq == null) {
             return true; // Es una fulla.
-
+          }
         return false; // Es un node amb un fill
     }
 
