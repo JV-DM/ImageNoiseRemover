@@ -39,6 +39,16 @@ public class TestABC {
 		}else{
 			System.out.println("Test para arbol de una sola rama  incorrecto");
 		}
+		for(int i = 0; i < 100; i++) {
+			int num_nodos = (int) ((Math.random() * 100) / 100);
+			for (int j = 0; j < num_nodos; j++) {
+				a.insertar((int) Math.random());
+			}
+			a.reconstruirEquilibrado();
+			if(a.teDosFills()){
+				System.out.println("todo bien");
+			}
+		}
 	}
 
 
