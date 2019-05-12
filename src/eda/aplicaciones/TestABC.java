@@ -42,7 +42,7 @@ public class TestABC {
 		for(int i = 0; i < 100; i++) {
 			int num_nodos = (int) ((Math.random() * 100) / 100);
 			for (int j = 0; j < num_nodos; j++) {
-				a.insertar((int) Math.random());
+				a.insertar((int) (Math.random() * num_nodos) / num_nodos);
 			}
 			a.reconstruirEquilibrado();
 			if(a.teDosFills()){
