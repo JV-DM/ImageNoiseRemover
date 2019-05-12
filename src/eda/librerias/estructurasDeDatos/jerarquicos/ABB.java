@@ -370,7 +370,8 @@ public class ABB<E extends Comparable<E>> {
     }
 
     public boolean teDosFills(){
-        return this.teDosFills(this.raiz);
+	if(this.raiz == null) {return false;}
+	return this.teDosFills(this.raiz);
     }
 
     public boolean teDosFills(NodoABB<E> node){
