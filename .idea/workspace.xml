@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="738cbef6-295d-4e8b-a47d-428c31070d78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/aplicaciones/GenNumAleat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/aplicaciones/TestCua.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/aplicaciones/TestLlistaAmbPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/aplicaciones/TestOrdenacio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/aplicaciones/TestSelect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/aplicaciones/TestTaulaHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/librerias/estructurasDeDatos/deDispersion/EntradaHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/librerias/estructurasDeDatos/deDispersion/TaulaHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/librerias/estructurasDeDatos/jerarquicos/ABB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/librerias/estructurasDeDatos/jerarquicos/ABB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/librerias/estructurasDeDatos/lineales/LEGLlistaAmbPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/librerias/estructurasDeDatos/lineales/NodeLEG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabajoEDA/eda/librerias/estructurasDeDatos/lineales/NodeLegCua.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/aplicaciones/GenNumAleat.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eda/aplicaciones/TestABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eda/aplicaciones/TestABC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/aplicaciones/TestCua.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/aplicaciones/TestLlistaAmbPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/aplicaciones/TestOrdenacio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/aplicaciones/TestSelect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/aplicaciones/TestTaulaHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/deDispersion/EntradaHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/deDispersion/TaulaHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/jerarquicos/ABB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/jerarquicos/ABB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/lineales/LEGLlistaAmbPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/lineales/NodeLEG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/lineales/NodeLegCua.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,37 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/jerarquicos/ABB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="375" column="26" selection-start-line="375" selection-start-column="26" selection-end-line="375" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#12247#12248#0" expanded="true" />
-                <element signature="e#12296#12297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eda/aplicaciones/TestABC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="495">
+              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eda/librerias/estructurasDeDatos/jerarquicos/NodoABB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -134,54 +86,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TrabajoEDA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrabajoEDA2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrabajoEDA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrabajoEDA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrabajoEDA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrabajoEDA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrabajoEDA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrabajoEDA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eda" type="462c0819:PsiDirectoryNode" />
-              <item name="librerias" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrabajoEDA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrabajoEDA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eda" type="462c0819:PsiDirectoryNode" />
-              <item name="librerias" type="462c0819:PsiDirectoryNode" />
-              <item name="estructurasDeDatos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TrabajoEDA2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrabajoEDA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eda" type="462c0819:PsiDirectoryNode" />
-              <item name="librerias" type="462c0819:PsiDirectoryNode" />
-              <item name="estructurasDeDatos" type="462c0819:PsiDirectoryNode" />
-              <item name="lineales" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,10 +170,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="17" width="1350" height="743" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19645609" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,7 +182,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32744783" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32694355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eda/aplicaciones/TestABC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="495">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

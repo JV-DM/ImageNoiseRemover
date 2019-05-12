@@ -3,17 +3,43 @@ import  eda.librerias.estructurasDeDatos.jerarquicos.ABB;
 import java.util.Random;
 
 public class TestABC {
-    public static void main(String[] args) {
-	ABB<Integer> a = new ABB();
-	Random gen = new Random();
+	public static void main(String[] args) {
+		ABB<Integer> a = new ABB();
+		Random gen = new Random();
 
-	for (int i = 62; i > 31; i--) {
-	     a.insertar(i);
-	    //arbre.inserir(gen.nextInt(1000));
+		for (int i = 62; i > 31; i--) {
+			a.insertar(i);
+			//arbre.inserir(gen.nextInt(1000));
+		}
+		a.reconstruirEquilibrado();
+		if (a.teDosFills()) {
+			System.out.println("Test para arbol equilibrado correcto");
+		}else{
+			System.out.println("Test arbol equilibrado incorrecto");
+		}
+		a = new ABB();
+		for(int i = 62; i > 31; i--)
+		{
+			a.insertar(i);
+		}
+		a.reconstruirEquilibrado();
+		a.insertar(30);
+		if (!a.teDosFills()) {
+			System.out.println("Test para arbol no equilibrado correcto");
+		}else{
+			System.out.println("Test arbol no equilibrado incorrecto");
+		}
+		a = new ABB();
+		for(int i = 62; i > 31; i--)
+		{
+			a.insertar(i);
+		}
+		if(!a.teDosFills()){
+			System.out.println("Test para arbol de una sola rama correcto");
+		}else{
+			System.out.println("Test para arbol de una sola rama  incorrecto");
+		}
 	}
 
-	a.reconstruirEquilibrado();
-	System.out.println(a.teDosFills());
-    }
 
 }
